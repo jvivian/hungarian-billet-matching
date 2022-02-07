@@ -1,0 +1,18 @@
+name: billet
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python=3.8
+  - scipy
+  - pandas
+  - numpy
+  - seaborn
+  - matplotlib
+  - plotly
+  - openpyxl
+  - jupyter
+  - pip
+  - pip:
+    - mljar-mercury
+
